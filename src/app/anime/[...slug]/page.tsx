@@ -19,9 +19,9 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 type AnimeInfoProps = {
-    params: {
+    params: Promise<{
         slug: string[];
-    };
+    }>
 };
 
 const anilist = new META.Anilist();
@@ -45,7 +45,8 @@ const TAB = {
     Staff: "Staff",
 };
 
-const AnimeInfo = async ({ params: { slug } }: AnimeInfoProps) => {
+const AnimeInfo = async ({ params }: AnimeInfoProps) => {
+    const slug = (await params).slug
     const id = slug[0];
     const title = slug[1];
 

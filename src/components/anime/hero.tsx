@@ -149,11 +149,11 @@ const Hero = ({ trending }: HeroProps) => {
                                                     </TrailerModal>
 
                                                     {/* add to watchlist button */}
-                                                    {status == "authenticated" && (
-                                                        <Button>
-                                                            <Bookmark className="h-5 w-5 md:h-6 md:w-6" />
-                                                        </Button>
-                                                    )}
+                                                    {/* {status == "authenticated" && ( */}
+                                                    {/*     <Button> */}
+                                                    {/*         <Bookmark className="h-5 w-5 md:h-6 md:w-6" /> */}
+                                                    {/*     </Button> */}
+                                                    {/* )} */}
 
                                                     {/* more info button */}
                                                     <Link
