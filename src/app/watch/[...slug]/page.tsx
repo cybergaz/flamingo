@@ -30,7 +30,7 @@ const WatchPage = async ({ params }: WatchPageProps) => {
 
     return (
         <div className="flex h-screen w-full items-center justify-center">
-            <ArtPlayer url={`http://localhost:8787?url=${videoUrl}`} className="aspect-video w-[800px]" />
+            <ArtPlayer url={`${videoUrl}`} className="aspect-video w-[800px]" />
         </div>
     );
 };
