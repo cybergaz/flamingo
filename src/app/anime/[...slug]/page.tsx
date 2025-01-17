@@ -27,9 +27,9 @@ type AnimeInfoProps = {
 const anilist = new META.Anilist();
 
 const fetchAnimeInfo = async (id: string) => {
-    console.log("recieved fetch anime call for id : ", id);
+    // console.log("recieved fetch anime call for id : ", id);
     const anime = await anilist.fetchAnimeInfo(id);
-    console.log("fetched anime : ", anime);
+    // console.log("fetched anime : ", anime);
 
     setAnimeInfo(anime);
 
@@ -55,8 +55,8 @@ const AnimeInfo = async ({ params }: AnimeInfoProps) => {
     const id = slug[0];
     const title = slug[1];
 
-    console.log("id : ", id);
-    console.log("title : ", title);
+    // console.log("id : ", id);
+    // console.log("title : ", title);
 
     const anime =
         animeStoreSelector().animeInfo?.find((a) => a.id === id) ??

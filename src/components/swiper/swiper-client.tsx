@@ -52,10 +52,10 @@ const SwiperClient = ({ items, isUpcoming }: SwiperClientProps) => {
 
     const getId = (item: Item) => {
         if (isUpcoming) {
-            console.log("returned id : ", (item as UpcomingAnimeData).mal_id.toString());
+            // console.log("returned id : ", (item as UpcomingAnimeData).mal_id.toString());
             return (item as UpcomingAnimeData).mal_id.toString();
         } else {
-            console.log("returned id : ", (item as IAnimeResultV2).id);
+            // console.log("returned id : ", (item as IAnimeResultV2).id);
             return (item as IAnimeResultV2).id;
         }
     };

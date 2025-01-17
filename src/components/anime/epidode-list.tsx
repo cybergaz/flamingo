@@ -19,7 +19,7 @@ type EpisodeListProps = {
 
 const EpisodeList = ({ id, items = [], mode }: EpisodeListProps) => {
     const [currentPage, setCurrentPage] = useState(0);
-    console.log("episode list got items : ", items);
+    // console.log("episode list got items : ", items);
 
     const itemsPerPage = 10;
     const pagesCount = Math.ceil(items.length / itemsPerPage);

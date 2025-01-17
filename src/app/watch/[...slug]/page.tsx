@@ -12,7 +12,7 @@ const fetchEpisodes = async (title: string) => {
     const gogoanime = new ANIME.Gogoanime();
     try {
         const episodes = await gogoanime.fetchEpisodeSources(title)
-        console.log(episodes);
+        // console.log(episodes);
         return episodes;
     } catch (error) {
         throw error;
