@@ -123,7 +123,7 @@ const Hero = ({ trending }: HeroProps) => {
                                                 <div className="absolute bottom-4 flex w-full gap-2 font-bold tracking-tight md:bottom-6 md:gap-3 lg:bottom-8 lg:text-lg">
                                                     {/* play button */}
                                                     <Link
-                                                        href={`/watch/${anime.id}/${getAnimeTitle(anime)}`}
+                                                        href={`/anime/info/${anime.id}/${getAnimeTitle(anime)}`}
                                                         className={cn(
                                                             buttonVariants({ variant: "green" }),
                                                             "h-9 gap-1 px-2 text-black md:h-10 lg:h-10 lg:px-4"
@@ -157,9 +157,7 @@ const Hero = ({ trending }: HeroProps) => {
 
                                                     {/* more info button */}
                                                     <Link
-                                                        href={`/anime/info/${anime.id}/${getAnimeTitle(
-                                                            anime
-                                                        )}`}
+                                                        href={`/anime/info/${anime.id}/${getAnimeTitle(anime)}`}
                                                         className={cn(
                                                             buttonVariants(),
                                                             "ml-auto mr-8 h-9 px-2 md:h-10 lg:h-10 lg:px-4"
