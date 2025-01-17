@@ -3,9 +3,9 @@ import { ANIME, IEpisodeServer } from "@consumet/extensions";
 import ArtPlayer from "@/components/player/art-player";
 
 type WatchPageProps = {
-    params: {
+    params: Promise<{
         slug: string[];
-    };
+    }>
 };
 
 const fetchEpisodes = async (title: string) => {
