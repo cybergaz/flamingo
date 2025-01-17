@@ -139,7 +139,7 @@ export const Subtle = ({
     fontInter = false,
 }: TopographyProps) => {
     return (
-        <p
+        <div
             className={cn(
                 "text-sm text-fill-light",
                 className,
@@ -147,6 +147,6 @@ export const Subtle = ({
             )}
         >
             {children}
-        </p>
+        </div>
     );
 };

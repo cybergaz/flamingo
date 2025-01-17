@@ -52,8 +52,10 @@ const SwiperClient = ({ items, isUpcoming }: SwiperClientProps) => {
 
     const getId = (item: Item) => {
         if (isUpcoming) {
+            console.log("returned id : ", (item as UpcomingAnimeData).mal_id.toString());
             return (item as UpcomingAnimeData).mal_id.toString();
         } else {
+            console.log("returned id : ", (item as IAnimeResultV2).id);
             return (item as IAnimeResultV2).id;
         }
     };
@@ -98,9 +100,9 @@ const SwiperClient = ({ items, isUpcoming }: SwiperClientProps) => {
                     pagination={{ clickable: true }}
                     className="flex h-full w-full items-center justify-between gap-6 px-1 pb-8 pt-4"
                 >
-                    {data.map((item) => (
+                    {data.map((item, index) => (
                         <SwiperSlide
-                            key={getId(item)}
+                            key={index}
                             className="h-full rounded-md py-2 lg:w-48"
                         >
                             <Swipercard item={item} isUpcoming={isUpcoming} />

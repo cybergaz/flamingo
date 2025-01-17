@@ -27,7 +27,9 @@ type AnimeInfoProps = {
 const anilist = new META.Anilist();
 
 const fetchAnimeInfo = async (id: string) => {
+    console.log("recieved fetch anime call for id : ", id);
     const anime = await anilist.fetchAnimeInfo(id);
+    console.log("fetched anime : ", anime);
 
     setAnimeInfo(anime);
 
@@ -47,12 +49,19 @@ const TAB = {
 
 const AnimeInfo = async ({ params }: AnimeInfoProps) => {
     const slug = (await params).slug
+    if (slug.length === 3) {
+        slug.shift();
+    }
     const id = slug[0];
     const title = slug[1];
+
+    console.log("id : ", id);
+    console.log("title : ", title);
 
     const anime =
         animeStoreSelector().animeInfo?.find((a) => a.id === id) ??
         (await fetchAnimeInfo(id));
+    await fetchAnimeInfo(id)
 
     const hasSubDub = (() => {
         if (anime.hasSub && anime.hasDub) {

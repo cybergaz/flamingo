@@ -17,7 +17,6 @@ const ArtPlayer = ({ url, className }: ArtPlayerProps) => {
         container: ".artplayer-app",
         autoSize: false,
         autoOrientation: true,
-        // title: "",
         volume: 1,
         isLive: false,
         muted: false,
@@ -31,7 +30,7 @@ const ArtPlayer = ({ url, className }: ArtPlayerProps) => {
         playbackRate: true,
         aspectRatio: true,
         fullscreen: true,
-        fullscreenWeb: false,
+        fullscreenWeb: true,
         subtitleOffset: true,
         miniProgressBar: false,
         mutex: true,
@@ -66,4 +65,3 @@ const ArtPlayer = ({ url, className }: ArtPlayerProps) => {
 };
 
 export default ArtPlayer;
-

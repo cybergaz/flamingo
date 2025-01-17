@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/styles/globals.css";
 import { overpass } from "@/lib/fonts";
 import Providers from "./providers";
 import { SITE_CONFIG } from "@/lib/const";
