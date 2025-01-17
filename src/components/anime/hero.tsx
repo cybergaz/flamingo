@@ -50,8 +50,8 @@ const Hero = ({ trending }: HeroProps) => {
             <div className="flex w-full flex-col gap-4 py-3 md:flex-row md:py-6">
                 <div
                     className={cn(
-                        "relative h-44 w-full rounded-lg border border-zinc-600 shadow-lg hover:border-rose-500 md:h-[18rem] md:w-3/4 lg:h-[24rem]",
-                        "ring-1 ring-gray-400 ring-offset-2 ring-offset-gray-300 hover:shadow-rose-500 hover:ring-rose-500 hover:ring-offset-rose-500"
+                        "relative h-44 w-full rounded-lg border border-zinc-600 shadow-lg hover:border-blue-500 md:h-[18rem] md:w-3/4 lg:h-[24rem]",
+                        "ring-1 ring-gray-400 ring-offset-2 ring-offset-gray-300 hover:shadow-blue-500 hover:ring-blue-500 hover:ring-offset-blue-500"
                     )}
                 >
                     {trending && (
@@ -197,7 +197,7 @@ const Hero = ({ trending }: HeroProps) => {
                     {/* autoplay progress */}
                     <div
                         ref={progressRef}
-                        className="absolute -bottom-1 z-10 mx-0.5 h-1 rounded-b-lg bg-rose-500"
+                        className="absolute -bottom-1 z-10 mx-0.5 h-1 rounded-b-lg bg-blue-500"
                     />
                 </div>
 
@@ -208,8 +208,8 @@ const Hero = ({ trending }: HeroProps) => {
                             <div
                                 key={anime.id}
                                 className={cn(
-                                    "group relative flex h-full overflow-hidden rounded-lg border border-zinc-600 shadow-lg hover:border-rose-500",
-                                    "ring-1 ring-gray-400 ring-offset-2 ring-offset-gray-300 hover:shadow-rose-500 hover:ring-rose-500 hover:ring-offset-rose-500"
+                                    "group relative flex h-full overflow-hidden rounded-lg border border-zinc-600 shadow-lg hover:border-blue-500",
+                                    "ring-1 ring-gray-400 ring-offset-2 ring-offset-gray-300 hover:shadow-blue-500 hover:ring-blue-500 hover:ring-offset-blue-500"
                                 )}
                             >
                                 <Image

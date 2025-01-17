@@ -38,7 +38,7 @@ const ArtPlayer = ({ url, className }: ArtPlayerProps) => {
         playsInline: true,
         autoPlayback: true,
         airplay: true,
-        theme: "bg-rose-500", // use hash color
+        theme: "bg-blue-500", // use hash color
         // whitelist: ["*"],
         moreVideoAttr: {
             crossOrigin: "anonymous",

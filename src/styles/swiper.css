@@ -4,5 +4,5 @@
 }
 
 .swiper-pagination-bullet {
-  @apply bg-rose-500 w-2.5 h-2.5;
+  @apply bg-blue-500 w-2.5 h-2.5;
 }

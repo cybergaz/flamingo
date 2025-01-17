@@ -51,7 +51,7 @@ const Home = () => {
                 </div>
 
                 <Link
-                    href="/login"
+                    href="/anime"
                     className={cn(
                         buttonVariants({ variant: "blue" }),
                         "flex items-center gap-2 rounded-full p-6 pr-2 font-bold"

@@ -10,7 +10,7 @@ const buttonVariants = cva(
             variant: {
                 default: "border-zinc-600 bg-white/10 hover:bg-white/25",
                 destructive:
-                    "border-rose-700 bg-gradient-to-br from-rose-500 to-rose-600 hover:from-red-500 hover:to-red-600",
+                    "border-blue-700 bg-gradient-to-br from-blue-500 to-blue-600 hover:from-red-500 hover:to-red-600",
                 outline:
                     "border-zinc-600 bg-transparent text-slate-100 hover:bg-white hover:text-black",
                 blue: "border-none bg-gradient-to-br from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800",
