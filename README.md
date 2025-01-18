@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div style="text-align: center">
 
-## Getting Started
+# 🎥 Flamingo  
+</div>
 
-First, run the development server:
+[![Website](https://img.shields.io/badge/Visit-Site-blue)](https://flamingo-anime.vercel.app)  
+**Flamingo** is a sleek and modern anime streaming platform built with cutting-edge technologies. Explore, stream, and enjoy your favorite anime seamlessly!  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 **Live Demo**  
+👉 [flamingo-anime.vercel.app](https://flamingo-anime.vercel.app)  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 **Features**  
 
-## Learn More
+- 🖥️ **Blazing Fast Frontend**: Built with **Next.js** and **TypeScript** for optimal performance.  
+- 📂 **Robust Database**: Data is managed using **PostgreSQL** with **Drizzle ORM** for type-safe and scalable queries.  
+- 🛡️ **Input Validation**: Powered by **Zod** to ensure data integrity across the application.  
+- 📊 **State Management**: Lightning-fast and intuitive state handling with **Zustand**.  
+- 🎨 **Responsive Design**: Optimized for all devices, ensuring a smooth experience across screens.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ **Technologies Used**  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| **Technology** | **Description**                                |  
+|-----------------|------------------------------------------------|  
+| **Next.js**     | Framework for fast and SEO-friendly web apps.  |  
+| **TypeScript**  | Type-safe JavaScript for robust development.   |  
+| **PostgreSQL**  | Relational database for secure data storage.   |  
+| **Drizzle**     | Lightweight ORM for type-safe SQL queries.     |  
+| **Zod**         | Schema validation for cleaner, safer code.     |  
+| **Zustand**     | Minimalistic state management for React apps.  |  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📸 **Screenshots**  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Home Page  
+A clean and minimal interface showcasing popular and trending anime.  
+
+![Home Page Screenshot](https://via.placeholder.com/800x400?text=Flamingo+Home+Page)  
+
+---
+
+### Anime Details  
+Detailed anime pages with episode lists, descriptions, and streaming options.  
+
+![Details Page Screenshot](https://via.placeholder.com/800x400?text=Flamingo+Anime+Details)  
+
+---
+
+## 📦 **Setup and Installation**  
+
+### Prerequisites  
+- **Node.js** (>= 16.x.x)  
+- **PostgreSQL** (Database)  
+
+### Steps  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/your-username/flamingo.git  
+   cd flamingo  
+   ```  
+
+2. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+
+3. Set up environment variables:  
+   Create a `.env` file and add the following:  
+   ```env  
+   DATABASE_URL=your_postgres_connection_url  
+   NEXT_PUBLIC_API_URL=your_api_endpoint  
+   ```  
+
+4. Run database migrations (using Drizzle):  
+   ```bash  
+   npm run drizzle:migrate  
+   ```  
+
+5. Start the development server:  
+   ```bash  
+   npm run dev  
+   ```  
+
+6. Visit the site locally at:  
+   ```
+   http://localhost:3000  
+   ```  
+
+---
+
+## 🛡️ **Contributing**  
+
+Contributions are welcome! If you’d like to help improve **Flamingo**, feel free to fork the repo, create a branch, and submit a pull request.  
+
+---
+
+## 🤝 **Credits**  
+
+- Built by: **[Your Name](https://github.com/your-username)**  
+- Powered by:  
+  - **Next.js**  
+  - **TypeScript**  
+  - **PostgreSQL**  
+  - **Drizzle ORM**  
+  - **Zod**  
+  - **Zustand**  
+
+---
+
+## 📜 **License**  
+
+This project is licensed under the [MIT License](LICENSE).  
+
+---
+
+Let me know if you'd like me to customize it further! 🚀
