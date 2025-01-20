@@ -41,14 +41,14 @@
 ### Home Page  
 A clean and minimal interface showcasing popular and trending anime.  
 
-![Home Page Screenshot](https://via.placeholder.com/800x400?text=Flamingo+Home+Page)  
+![Home Page Screenshot](https://github.com/cybergaz/void_repo/blob/master/screenshots/1737215590.png)  
 
 ---
 
 ### Anime Details  
 Detailed anime pages with episode lists, descriptions, and streaming options.  
 
-![Details Page Screenshot](https://via.placeholder.com/800x400?text=Flamingo+Anime+Details)  
+![Details Page Screenshot](https://github.com/cybergaz/void_repo/blob/master/screenshots/1737220580.png)  
 
 ---
 
