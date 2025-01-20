@@ -58,7 +58,7 @@ const Swipercard = ({ item, isUpcoming, className }: SwipercardProps) => {
             href={getHref(item)}
             className={cn(
                 "group flex h-full w-fit cursor-pointer flex-col rounded-md border border-zinc-600 shadow-lg shadow-zinc-500 transition-transform duration-300 hover:-translate-y-2 hover:border-blue-500",
-                "ring-1 ring-gray-400 ring-offset-2 ring-offset-white/50 hover:shadow-blue-500 hover:ring-blue-500 hover:ring-offset-blue-500",
+                "ring-0 ring-gray-400 ring-offset-2 ring-offset-white/50 hover:shadow-blue-500 hover:ring-blue-500 hover:ring-offset-blue-500",
                 className
             )}
         >

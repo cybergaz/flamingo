@@ -51,7 +51,7 @@ const Hero = ({ trending }: HeroProps) => {
                 <div
                     className={cn(
                         "relative h-44 w-full rounded-lg border border-zinc-600 shadow-lg hover:border-blue-500 md:h-[18rem] md:w-3/4 lg:h-[24rem]",
-                        "ring-1 ring-gray-400 ring-offset-2 ring-offset-gray-300 hover:shadow-blue-500 hover:ring-blue-500 hover:ring-offset-blue-500"
+                        "ring-0 ring-gray-400 ring-offset-2 ring-offset-gray-300 hover:shadow-blue-500 hover:ring-blue-500 hover:ring-offset-blue-500"
                     )}
                 >
                     {trending && (
@@ -207,7 +207,7 @@ const Hero = ({ trending }: HeroProps) => {
                                 key={anime.id}
                                 className={cn(
                                     "group relative flex h-full overflow-hidden rounded-lg border border-zinc-600 shadow-lg hover:border-blue-500",
-                                    "ring-1 ring-gray-400 ring-offset-2 ring-offset-gray-300 hover:shadow-blue-500 hover:ring-blue-500 hover:ring-offset-blue-500"
+                                    "hover:shadow-blue-500"
                                 )}
                             >
                                 <Image

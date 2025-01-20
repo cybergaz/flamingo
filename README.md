@@ -61,7 +61,7 @@ Detailed anime pages with episode lists, descriptions, and streaming options.
 ### Steps  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/your-username/flamingo.git  
+   git clone https://github.com/cybergaz/flamingo.git  
    cd flamingo  
    ```  
 
@@ -74,7 +74,6 @@ Detailed anime pages with episode lists, descriptions, and streaming options.
    Create a `.env` file and add the following:  
    ```env  
    DATABASE_URL=your_postgres_connection_url  
-   NEXT_PUBLIC_API_URL=your_api_endpoint  
    ```  
 
 4. Run database migrations (using Drizzle):  
@@ -97,26 +96,3 @@ Detailed anime pages with episode lists, descriptions, and streaming options.
 ## 🛡️ **Contributing**  
 
 Contributions are welcome! If you’d like to help improve **Flamingo**, feel free to fork the repo, create a branch, and submit a pull request.  
-
----
-
-## 🤝 **Credits**  
-
-- Built by: **[Your Name](https://github.com/your-username)**  
-- Powered by:  
-  - **Next.js**  
-  - **TypeScript**  
-  - **PostgreSQL**  
-  - **Drizzle ORM**  
-  - **Zod**  
-  - **Zustand**  
-
----
-
-## 📜 **License**  
-
-This project is licensed under the [MIT License](LICENSE).  
-
----
-
-Let me know if you'd like me to customize it further! 🚀
